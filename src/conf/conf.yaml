@@ -14,14 +14,13 @@ ODPS:
 
 # 分区编码
 DISTRIB_CODE_LIST:
-
-# 从odps中查询测试数据实际值
-SELECT_ODPS_DATA:
-# 从odps中查询滚动一年销售数据 平滑后的时间序列 分区表
+# 从odps中查询平滑后的销售数据
 GET_NOR_DATA:
 # 从odps中查询节假日权重 分区表
 GET_FESTIVAL_WEIGHT:
 # 从odps中查询周权重 分区表
 GET_WEEK_WEIGHT:
-# 从odps中查询天气数据
-GET_WEATHER_DATA:
+# 取到分区、季节、产品线的真实销售数据。
+GET_REAL_DATA:
+# 取同比数据
+GET_DATA_Y2Y_CLR:

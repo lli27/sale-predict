@@ -15,7 +15,7 @@ class Config:
         初始化
         """
         self.logging = LogFactory()
-        self.config_data = self.load_yaml('conf/conf.yaml')
+        self.config_data = self.load_yaml('src/conf/conf.yaml') # 服务器修改路径为：/root/PycharmProjects/sale_predict/src/conf/conf.yaml
 
     def load_yaml(self, yaml_file):
         """
